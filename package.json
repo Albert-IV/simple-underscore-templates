@@ -1,0 +1,24 @@
+{
+  "author": "Albert Engelbrecht <dropped.on.japan@gmail.com>",
+  "name": "simple-underscore-templates",
+  "description": "Really simple templates for Node.js.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/droppedonjapan/simple-underscore-templates",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/droppedonjapan/simple-underscore-templates"
+  },
+  "main": "/server.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "dependencies": {
+    "async": "*",
+    "underscore": "*"
+    },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
