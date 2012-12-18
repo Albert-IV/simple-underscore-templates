@@ -4,6 +4,12 @@ var fs = require('fs'),
 		validFiles = [],
 		options = {};
 
+_.templateSettings = {
+    interpolate: /\{\{\=(.+?)\}\}/gim,
+    escape: /\{\{\-(.+?)\}\}/gim,
+    evaluate: /\{\{([\s\S]+?)\}\}/gim
+};
+
 var UnderscoreTemplates = {};
 
 UnderscoreTemplates.createTemplateEngine = function(o, callback){
